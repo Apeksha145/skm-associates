@@ -1,0 +1,113 @@
+.top {
+    background-color: #222;
+    padding: 10px 0px 0px 0px;
+}
+.top p {
+    color: #fff;
+    font-family: Calibri;
+    font-size: 13px;
+}
+.bg-head{padding:15px 0px;}
+.navbar-light .navbar-nav .active{ border-bottom:2px solid black !important;}
+.navbar-light .navbar-nav .nav-link { padding: 10px 25px;font-size:17px;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#d6612b !important;border-bottom:2px solid black;
+}
+.welcome{padding-top:20px;}
+.welcometext{padding:20px 0px;text-align:justify;}
+/*dropdown css start*/
+.dropdown {position: relative;display: inline-block;}
+.dropdown-content 
+{
+display: none;
+position: absolute;
+background-color:white;
+min-width:370px;
+border: 1px solid #e0e1e2;
+box-shadow: 0 4px 10px rgba(0,0,0,.33);
+border-radius: 2px;
+z-index:1;
+padding:0px 0 0 0px;
+}
+.dropdown-content li 
+{
+list-style-type:none;
+}
+.dropdown-content a
+{
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover
+{
+color:#d65419;
+}
+.dropdown:hover .dropdown-content
+{
+display: block;
+}
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+}
+/*dropdown css end*/
+
+.practice{background-color:rgba(204, 204, 204, 0.41960784313725);padding:0px 0px 55px;/*background-image:url("../images/pracback1.jpg");*/}
+.box{background-color:;margin:10px 0px;height:100px;padding:15px;font-weight:bold;box-shadow: 5px 10px #888888;}
+.box  a{color:black;text-decoration:none;}
+.rotatebox .box{transform:  scale(1);transition: .3s ease-in-out;}
+.rotatebox:hover .box{transform: rotate(5deg) scale(1);}
+.w1  a{color:white;text-decoration:none;}
+.footer{background-color:#222;color:white;padding:20px 0px 40px 0px;}
+.footer-bottom{background-color:#272525eb;color:white;padding:10px 0px 0px 0px;font-size:14px;}
+@media only screen and (min-device-width:250px) and (max-device-width:768px){
+	h3{font-size:18px;}
+	.welcome img{width:200px;}
+	.logo img{width:140px;}
+}
+.flashit
+	{
+	 color:black;
+	-webkit-animation: flash linear 2s infinite;
+	animation: flash linear 2s infinite;
+	}
+	@-webkit-keyframes flash 
+	{
+		0% { opacity: 1; } 
+		20% { opacity: .1; } 
+		50% { opacity: 1; }
+	}
+	@keyframes flash 
+	{
+		0% { opacity: 1; } 
+		20% { opacity: .1; } 
+		50% { opacity: 1; }
+	}
+/*quick link*/
+.quicklink ul li
+{
+	list-style-type:none;
+	padding-left:0px;
+}
+.quicklink ul
+{
+	padding-left:0px;
+}
+.quicklink ul li a
+{
+color:whitesmoke;
+font-size:14px;
+}
+.contctus,p,span{font-size:14px;}
+.fa-facebook-square:hover {
+    color: #015ca2;
+}
+.fa-twitter:hover{
+    color: #4dcff9;
+}
+.fa-linkedin:hover {
+    color: #035885;
+}
+span .fa{font-size:24px;color:white;}
