@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="css/bootstrap4.css">
+		<link rel="stylesheet" href="css/skm.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<title>SKM & ASSOCIATES</title>
+	</head>
+	<script>$(document).ready(function() {
+
+  var toggleAffix = function(affixElement, scrollElement, wrapper) {
+  
+    var height = affixElement.outerHeight(),
+        top = wrapper.offset().top;
+    
+    if (scrollElement.scrollTop() >= top){
+        wrapper.height(height);
+        affixElement.addClass("affix");
+    }
+    else {
+        affixElement.removeClass("affix");
+        wrapper.height('auto');
+    }
+      
+  };
+  
+
+  $('[data-toggle="affix"]').each(function() {
+    var ele = $(this),
+        wrapper = $('<div></div>');
+    
+    ele.before(wrapper);
+    $(window).on('scroll resize', function() {
+        toggleAffix(ele, $(this), wrapper);
+    });
+    
+    // init
+    toggleAffix(ele, $(window), wrapper);
+  });
+  
+});
+</script>
+	<body id="myPage">
+		<!--topbar-->
+		<div class="top text-center d-none d-lg-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+					 <p><i class="fa fa-phone"></i> 
+						+91-8860608212</p>
+					</div>
+					<div class="col-md-3">
+					  <p><i class="fa fa-envelope-o"></i> 
+						samtaksimmy@gmail.com
+					</p>
+					</div>
+					<div class="col-md-4">
+					  <p><i class="fa fa-clock-o"></i> 
+						Open: Mon - Sat <span>10:00 - 19:00.</span>  Sunday - <span>Closed</span>
+					  </p>
+					</div>
+					<div class="col-md-3">
+						<span>
+							<a href="http://www.facebook.com/pages/Beez-India-Natural-Products/119975571419571?ref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+							<a href="http://www.twitter.com/beezindia" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="http://www.linkedin.com/company/beez-india-natural-products-" target="_blank"><i class="fa fa-linkedin"></i></a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--topbar/-->
+		<!--<div class="d-none d-lg-block" style="height:50px;"></div>-->
+		<!--navbar-->
+		<div class="container-fluid bg-head header-top d-md-block" data-toggle="affix">
+			<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light py-0">
+			  <a class="navbar-brand logo" href="indexskm.html">
+				<img src="images/logo6.jpg" class="img-fluid">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto text-light">
+				  <li class="nav-item">
+					<a class="nav-link" href="indexskm.html">HOME</a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="skm_about.html">ABOUT US</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle"  href="skm_practice.html">AREA OF PRACTICE</a>
+					<ul class="dropdown-content">
+					  <li><a href="secretarial_compliances.html">SECRETARIAL COMPLIANCES</a></li>
+					  <li><a href="fema_compliances.html">FEMA RELATED COMPLIANCES</a></li>
+					  <li><a href="appearance_liasioning.html">APPEARANCES & LIASIONING</a></li>
+					  <li><a href="legal.html">LEGAL</a></li>
+					  <li><a href="other_registration.html">OTHER REGISTRATION</a></li>
+					  <li><a href="financial_resource.html">RAISING OF FINANCIAL RESOURCES</a></li>
+					  <li><a href="project_planning.html">PROJECT PLANNING & IMPLEMENTATION</a></li>
+					  <li><a href="corporate.html">CORPORATE TRAINING SESSIONS AND GUEST LECTURE</a></li>
+					</ul>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="skm_contact.html">CONTACT US</a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
+			</div>
+		</div>
+		<!--navbar/-->
+		<!--imgcontainer-->
+		<div class="d-block d-sm-none">
+			<img src="images/4above.jpg" class="img-fluid" style="display:block;">
+		</div>
+		<div class="main-image">
+			<img src="images/aboutus2.jpg" class="img-fluid">
+		</div>
+		<!--imgcontainer/-->
+		<!--main-container-->
+		<div class="container-fluid welcome">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3 class="">About Us</h3>
+					<img src="images/b1thina.png" class="img-fluid" style="vertical-align:top;">
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-12">
+						<p><strong style="color:#e97d3d;">"SKM & Associates"</strong> Practicing Company Secretaries* Firm is a new startup idea by CS Samta Kumari
+						Simmy & Team with the purpose of providing secretarial and legal services to corporate sector
+						starting from new startups and extending further to all existing business entities. The firm was
+						conceptualized with the idea of looking at all corporate transactions and compliances in a different facet,
+						in a manner that the approach always keeps both law makers and corporates at win-win situation. </p>
+						<p>With our rich and diverse experience in the field of corporate compliances, we place ourselves in the
+						market as a leading and iconic company secretary firm providing holistic services in the field of
+						Secretarial, Legal, Foreign Collaboration, Joint Ventures, Intellectual property Rights, Project Approvals
+						and Licensing, Project Financing and Liaisioning Matters.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid welcome">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h5 class="">About Founder</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="container pt-1 pb-5">
+				<div class="row">
+					<div class="col-md-12">
+						<p>The Firm was established by <strong style="color:#e97d3d;">Mrs. Samta Kumari Simmy</strong>  who is an Associate Member of the Institute of
+						Company Secretaries of India and a Management Graduate from Institute of Management Studies, Noida
+						having 10 years of post-qualification experience and overall 12 years of rich experience backed with
+						strong knowledge & understanding of statutory regulations, process orientations and strong network with
+						all functions and regulatory liasoining. She has expertise in handling Legal, Secretarial, Corporate affairs
+						and Project Related matters for Trading, Manufacturing, Real Estate, Infrastructure, Special Economic
+						Zones, Private Equity, Market Research and Educational Sectors etc. She is an accomplished professional
+						with a proven ability to develop and implement real time strategies that support project implementation
+						and execution.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--main-container/-->
+		<!--footer-->
+		<div class="container-fluid footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-12 col-12 contctus">
+						<h6 class="pt-4">Contact Us</h6>
+						<div style="width:50px; height:2px;background-color:#e97d3d;"></div>						
+						<h6 class="pt-2">Office Address:</h6>
+						<p> FF-2, Plot No-782, Niti Khand-1, Indirapuram, Ghaziabad, UP-201010</p>
+						<h6 class="pt-">Phone:<span> +91-8860608212</span></h6>
+						<h6 class="pt-">Email:<span> samtaksimmy@gmail.com</span></h6>
+						<p style="padding-top:10px;"><i class="fa fa-clock-o"></i> 
+							Open: Mon - Sat <span>10:00 - 19:00.</span><br />Sunday- <span>Closed</span></p>
+					</div>
+					<div class="col-md-2 col-sm-12 col-12 quicklink">
+						<h6 class="pt-4">Quick Links</h6>
+						<div style="width:50px; height:2px;background-color:#e97d3d;"></div>						
+						<ul class="pt-2">
+							<li><a href="indexskm.html">Home</a></li>
+							<li><a href="skm_about.html">About Us</a></li>
+							<li><a href="skm_practice.html">Area of practice</a></li>
+							<li><a href="skm_contact.html">Contact Us</a></li>
+						</ul>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-12">
+								<h6 class="pt-2">Follow Us</h6>
+								<div style="width:50px; height:2px;background-color:#e97d3d;"></div>						
+								<div class="pt-2">
+								<span>
+									<a href="http://www.facebook.com/pages/Beez-India-Natural-Products/119975571419571?ref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+									<a href="http://www.twitter.com/beezindia" target="_blank"><i class="fa fa-twitter"></i></a>
+									<a href="http://www.linkedin.com/company/beez-india-natural-products-" target="_blank"><i class="fa fa-linkedin"></i></a>
+								</span>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-4 col-sm-12 col-12 text-center">
+						<h6 class="pt-4">Find us on Google Map</h6>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4735639646246!2d77.35777001494169!3d28.64553589024344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfaac89e02da7%3A0x8df9b6fb4b40baf9!2sFood+Paradise+Indirapuram!5e0!3m2!1sen!2sin!4v1554106416347!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0" class="pt-2" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-3 col-sm-12 col-12 text-center">
+						<h6 class="pt-4">Get in touch</h6>
+						<div style="padding-left:12px;padding-right:12px;">
+							<form class="form-horizontal pt-2" action="/action_page.php" style="margin-left:auto;margin-right:auto;">
+								<div class="row form-group">
+									<input type="email" class="form-control" id="email" placeholder="Your Name">
+								</div>
+								<div class="row form-group">
+									<input type="email" class="form-control" id="email" placeholder="Your Email">
+								</div>
+								<div class="row form-group">
+									<input type="email" class="form-control" id="email" placeholder="Phone Number">
+								</div>
+								
+								<div class="row form-group">
+									<textarea class="form-control" id="email" placeholder="Your Message Here"  rows="2"></textarea>
+								</div>
+								<div class="row form-group" id="cntbtn"align="center">
+									<div class="col-sm-12 col-xs-12">
+									<button type="email" class="btn btn-default" style="color:#222;border:0;margin-left:-8px;">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer/-->
+		<!--footer-bottom-->
+		<div class="container-fluid footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-center">copyright © 2018-2019 SKM & Associates | Company Secretaries*</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-bottom-->
+		<a href="#myPage" id="toTop" title="to top" style="display:inline;"></a>
+	</body>	
+</html>
